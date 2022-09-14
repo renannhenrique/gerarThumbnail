@@ -1,0 +1,86 @@
+@charset 'utf-8';
+
+*{margin: 0px; padding: 0px; font-family: 'arial';}
+
+html, body{height: 100%;}
+
+.topo{
+    background-image: linear-gradient(to right, #fe8b05, #fe0557);
+    display: flex;
+    justify-content: center;
+}
+
+.topo_center{
+    width: 90%;
+    max-width: 600px;
+}
+
+.topo_titulo{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.topo_titulo h1{
+    color: #fff;
+}
+
+.topo_titulo p{
+    color: #f2e4f9;
+}
+
+.topo_form{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: -35px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px #cecece;
+    border-radius: 50px;
+   
+}
+
+.topo_form input[type=text]{
+    width: 70%;
+    height: 40px;
+    border: 0px;
+    background-color: #eee;
+    border-radius: 50px;
+    padding: 0px 20px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.topo_form input[type=submit]{
+    width: 25%;
+    height: 40px;
+    border-radius: 50px;
+    border:0px;
+    background-color: #96d7eb;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.thumbBox,
+.thumbBox2{
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+footer{
+    background-color: #839cb5;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+}
